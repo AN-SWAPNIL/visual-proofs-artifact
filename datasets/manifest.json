@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "conditions": {
+    "r": {
+      "name": "randomized",
+      "archive": "graphtrails_dataset.zip",
+      "archive_bytes": 955514529,
+      "archive_sha256": "6f34e2948464a72add770997fdf9b5238d1fbea571c3926e56495d3b7d0d8dc1",
+      "file_manifest": "r_files.csv",
+      "image_count": 24000,
+      "images_per_property_category": {
+        "bipartite/d_no": 1000,
+        "bipartite/s_no": 1000,
+        "bipartite/yes": 1000,
+        "completeness/d_no": 1000,
+        "completeness/s_no": 1000,
+        "completeness/yes": 1000,
+        "connectivity/d_no": 1000,
+        "connectivity/s_no": 1000,
+        "connectivity/yes": 1000,
+        "cut_vertex/d_no": 1000,
+        "cut_vertex/s_no": 1000,
+        "cut_vertex/yes": 1000,
+        "hamiltonian/d_no": 1000,
+        "hamiltonian/s_no": 1000,
+        "hamiltonian/yes": 1000,
+        "k_colorability/d_no": 1000,
+        "k_colorability/s_no": 1000,
+        "k_colorability/yes": 1000,
+        "outer_planarity/d_no": 1000,
+        "outer_planarity/s_no": 1000,
+        "outer_planarity/yes": 1000,
+        "planarity/d_no": 1000,
+        "planarity/s_no": 1000,
+        "planarity/yes": 1000
+      },
+      "kaggle_slug": "ahmmadnurswapnil/graph-visualization",
+      "kaggle_url": "https://www.kaggle.com/datasets/ahmmadnurswapnil/graph-visualization",
+      "kaggle_version": null,
+      "kaggle_verification": "Slug inferred from archived notebook paths; live version and license must be confirmed before publication",
+      "archive_root": "graphtrails_dataset",
+      "has_reasoning_texts": true,
+      "png_dimensions_counts": {
+        "400x400": 24000
+      },
+      "metadata_node_count_range": [
+        10,
+        60
+      ]
+    },
+    "wr": {
+      "name": "without randomization",
+      "archive": "graphtrails_dataset_wr.zip",
+      "archive_bytes": 569615563,
+      "archive_sha256": "6aca521da824fa41e899cb43a436e42ce6cc66420576e0aa7ebd3ec6f9e7fec9",
+      "file_manifest": "wr_files.csv",
+      "image_count": 24000,
+      "images_per_property_category": {
+        "bipartite/d_no": 1000,
+        "bipartite/s_no": 1000,
+        "bipartite/yes": 1000,
+        "completeness/d_no": 1000,
+        "completeness/s_no": 1000,
+        "completeness/yes": 1000,
+        "connectivity/d_no": 1000,
+        "connectivity/s_no": 1000,
+        "connectivity/yes": 1000,
+        "cut_vertex/d_no": 1000,
+        "cut_vertex/s_no": 1000,
+        "cut_vertex/yes": 1000,
+        "hamiltonian/d_no": 1000,
+        "hamiltonian/s_no": 1000,
+        "hamiltonian/yes": 1000,
+        "k_colorability/d_no": 1000,
+        "k_colorability/s_no": 1000,
+        "k_colorability/yes": 1000,
+        "outer_planarity/d_no": 1000,
+        "outer_planarity/s_no": 1000,
+        "outer_planarity/yes": 1000,
+        "planarity/d_no": 1000,
+        "planarity/s_no": 1000,
+        "planarity/yes": 1000
+      },
+      "kaggle_slug": "ahmmadnurswapnil/graph-visualization-wr",
+      "kaggle_url": "https://www.kaggle.com/datasets/ahmmadnurswapnil/graph-visualization-wr",
+      "kaggle_version": null,
+      "kaggle_verification": "Slug inferred from archived notebook paths; live version and license must be confirmed before publication",
+      "archive_root": "graphtrails_dataset",
+      "has_reasoning_texts": false,
+      "png_dimensions_counts": {
+        "406x406": 24000
+      },
+      "metadata_node_count_range": [
+        14,
+        40
+      ]
+    }
+  }
+}

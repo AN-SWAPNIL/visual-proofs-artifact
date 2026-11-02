@@ -1,0 +1,106 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "exp1_s_no": {
+    "metrics": {
+      "accuracy": 0.9916666666666667,
+      "precision": 0.9844006568144499,
+      "recall": 0.9991666666666666,
+      "f1": 0.9917287014061208,
+      "n_samples": 2400
+    },
+    "per_property": {
+      "cut_vertex": {
+        "accuracy": 0.9933333333333333,
+        "f1": 0.9933774834437086,
+        "n": 300
+      },
+      "connectivity": {
+        "accuracy": 0.97,
+        "f1": 0.970873786407767,
+        "n": 300
+      },
+      "bipartite": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "planarity": {
+        "accuracy": 0.9733333333333334,
+        "f1": 0.974025974025974,
+        "n": 300
+      },
+      "outer_planarity": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "hamiltonian": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "k_colorability": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "completeness": {
+        "accuracy": 0.9966666666666667,
+        "f1": 0.9966555183946488,
+        "n": 300
+      }
+    }
+  },
+  "exp2_d_no": {
+    "metrics": {
+      "accuracy": 0.9995833333333334,
+      "precision": 1.0,
+      "recall": 0.9991666666666666,
+      "f1": 0.9995831596498541,
+      "n_samples": 2400
+    },
+    "per_property": {
+      "cut_vertex": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "connectivity": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "bipartite": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "planarity": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "outer_planarity": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "hamiltonian": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "k_colorability": {
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "n": 300
+      },
+      "completeness": {
+        "accuracy": 0.9966666666666667,
+        "f1": 0.9966555183946488,
+        "n": 300
+      }
+    }
+  },
+  "visual_proof_gain": 0.007916666666666683
+}

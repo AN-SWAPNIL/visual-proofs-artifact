@@ -1,0 +1,54 @@
+[
+  {
+    "notebook": "codes/mllm_model_evaluation_2.5.ipynb",
+    "image": "hamiltonian/yes/hamiltonian_yes_001.png",
+    "dimensions": [
+      400,
+      400
+    ],
+    "rgb_sha256": "24764cc05b1a302ea47871f8528593e58279b18a2271183f175051a9a5956666",
+    "matching_collections": [
+      "r"
+    ],
+    "scope": "Single archived manual-test input only, not verification of full evaluation input"
+  },
+  {
+    "notebook": "codes/mllm_model_evaluation_2.5_wr.ipynb",
+    "image": "hamiltonian/yes/hamiltonian_yes_001.png",
+    "dimensions": [
+      406,
+      406
+    ],
+    "rgb_sha256": "57c860696ffa5b577cf20d0bad2992dc457f40217c976ee7bb301f6e302b0b3b",
+    "matching_collections": [
+      "wr"
+    ],
+    "scope": "Single archived manual-test input only, not verification of full evaluation input"
+  },
+  {
+    "notebook": "codes/mllm_model_evaluation_3.ipynb",
+    "image": "hamiltonian/yes/hamiltonian_yes_001.png",
+    "dimensions": [
+      400,
+      400
+    ],
+    "rgb_sha256": "24764cc05b1a302ea47871f8528593e58279b18a2271183f175051a9a5956666",
+    "matching_collections": [
+      "r"
+    ],
+    "scope": "Single archived manual-test input only, not verification of full evaluation input"
+  },
+  {
+    "notebook": "codes/mllm_model_evaluation_3_wr.ipynb",
+    "image": "hamiltonian/yes/hamiltonian_yes_001.png",
+    "dimensions": [
+      406,
+      406
+    ],
+    "rgb_sha256": "57c860696ffa5b577cf20d0bad2992dc457f40217c976ee7bb301f6e302b0b3b",
+    "matching_collections": [
+      "wr"
+    ],
+    "scope": "Single archived manual-test input only, not verification of full evaluation input"
+  }
+]

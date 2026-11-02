@@ -1,0 +1,5 @@
+-r common.txt
+timm>=1.0,<2
+grad-cam>=1.5,<2
+# OpenCV 4.12+ requires NumPy 2 on recent Python versions.
+opencv-python<4.12

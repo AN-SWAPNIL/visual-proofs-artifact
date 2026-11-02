@@ -1,0 +1,5 @@
+# Starting environment, not a recovered historical lockfile. Python 3.11.
+numpy==1.26.4
+networkx>=3.2,<4
+matplotlib>=3.8,<4
+scipy>=1.11,<2

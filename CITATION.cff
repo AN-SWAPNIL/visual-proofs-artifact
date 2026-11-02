@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying ICAA 2027 paper when using these artifacts. Publication details will be added after publication."
+title: "Learning from Visual Proofs: Neural Models for Network Property Verification"
+type: software
+authors:
+  - given-names: Sonia
+    family-names: Khatun
+  - given-names: Ahmmad Nur
+    family-names: Swapnil
+  - given-names: Reyan
+    family-names: Ahmed
+  - given-names: Md. Saidur
+    family-names: Rahman
+abstract: "Code, executed notebooks, saved outputs, and dataset manifests for the study accepted at the International Conference on Applied Algorithms (ICAA) 2027."
+license: MIT
+keywords:
+  - graph visualization
+  - visual certificates
+  - multimodal models
+  - graph property classification

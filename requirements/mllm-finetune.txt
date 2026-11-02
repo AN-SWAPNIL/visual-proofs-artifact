@@ -1,0 +1,4 @@
+-r zero-shot.txt
+peft>=0.17,<0.19
+bitsandbytes>=0.45,<0.49
+safetensors>=0.4,<1

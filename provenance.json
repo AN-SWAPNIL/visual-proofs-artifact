@@ -1,0 +1,1070 @@
+{
+  "assembled_on": "2026-11-03",
+  "scope": "ICAA 2027 accepted study only; later _all notebooks excluded",
+  "source_commit": "ef1561f02085ce80fb5c2b5f38110ba9d9a45bf3",
+  "nonrandomized_generator_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+  "files": [
+    {
+      "path": "data_generator/graphtrails_dataset_generator.py",
+      "source_path": "data_generator/graphtrails_dataset_generator.py",
+      "sha256": "04bcd1d487d2c712de4c8ca42bb6e89b720ca26dc1d715cff25ccedc965c6da2",
+      "bytes": 49750
+    },
+    {
+      "path": "data_generator/cut_vertex_generator.py",
+      "source_path": "data_generator/cut_vertex_generator.py",
+      "sha256": "50f35b3b2fe11ff2266cb6fd12297202523780f699008d2273539ccc6227e685",
+      "bytes": 23491
+    },
+    {
+      "path": "data_generator/connectivity_generator.py",
+      "source_path": "data_generator/connectivity_generator.py",
+      "sha256": "a76c3bd6a23e449d2e48a6728b98e5dd4ed4418e0ce9dc9c367753808ee0c669",
+      "bytes": 24921
+    },
+    {
+      "path": "data_generator/bipartite_generator.py",
+      "source_path": "data_generator/bipartite_generator.py",
+      "sha256": "1f040b8c100b8a4ee61fcbc9b6772b354ac2b52700788ae884ebc136bc92c535",
+      "bytes": 18481
+    },
+    {
+      "path": "data_generator/planarity_generator.py",
+      "source_path": "data_generator/planarity_generator.py",
+      "sha256": "330c2ed54dc0912404b3b8d145dc6ecd0773ca15caa5997860d08c7b36894932",
+      "bytes": 31155
+    },
+    {
+      "path": "data_generator/outer_planarity_generator.py",
+      "source_path": "data_generator/outer_planarity_generator.py",
+      "sha256": "c2cd5fa3bc6e1e05e7aaef574b1ee696f90230f6cb0a8dc1d5d51870badde2e9",
+      "bytes": 30513
+    },
+    {
+      "path": "data_generator/hamiltonian_generator.py",
+      "source_path": "data_generator/hamiltonian_generator.py",
+      "sha256": "4ce29cd825536cf442abeb0e02a744037531f682a4407dbc4a0e99dd1d967643",
+      "bytes": 35817
+    },
+    {
+      "path": "data_generator/k_colorability_generator.py",
+      "source_path": "data_generator/k_colorability_generator.py",
+      "sha256": "40f2c22d5b03c34ca3bd4250159d36fea42f10119aa5dd63d9139f503cb2232d",
+      "bytes": 21295
+    },
+    {
+      "path": "data_generator/completeness_generator.py",
+      "source_path": "data_generator/completeness_generator.py",
+      "sha256": "48d1626676a5dd4e7782f5f952d1ddae9a4e59a09eab0e8e340665e49652a999",
+      "bytes": 12507
+    },
+    {
+      "path": "data_generator/randomization_config.py",
+      "source_path": "data_generator/randomization_config.py",
+      "sha256": "504c4157798987b5f4efed95de8d7f054623dd0445d003d359300229ed3db129",
+      "bytes": 17802
+    },
+    {
+      "path": "data_generator/reasoning_text_generator.py",
+      "source_path": "data_generator/reasoning_text_generator.py",
+      "sha256": "12cd07bd6a794ca5ca2473aea6190670461cb12cc7df9500d6a9172bcffc0d0a",
+      "bytes": 31443
+    },
+    {
+      "path": "data_generator/non_randomized/graphtrails_dataset_generator.py",
+      "source_path": "codes/data_generator/graphtrails_dataset_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "73b326e9917239446a04c6780b3f1242ac5624eb17fe784dc22ade4254e4a50a",
+      "bytes": 40953
+    },
+    {
+      "path": "data_generator/non_randomized/cut_vertex_generator.py",
+      "source_path": "codes/data_generator/cut_vertex_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "d55c3a56f80ed6f05160cfa09d24d72cbcf0f804b89dcc2bfba8b71b59efa0e6",
+      "bytes": 21418
+    },
+    {
+      "path": "data_generator/non_randomized/connectivity_generator.py",
+      "source_path": "codes/data_generator/connectivity_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "05022d61ee481841728838d76e43b58f2181d3373ae5eefb36d0a62535bff9b3",
+      "bytes": 23779
+    },
+    {
+      "path": "data_generator/non_randomized/bipartite_generator.py",
+      "source_path": "codes/data_generator/bipartite_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "71ab297bc4e208290a43d838fbb0b5f259205a7bd92a89c69ff84b0695036eeb",
+      "bytes": 17448
+    },
+    {
+      "path": "data_generator/non_randomized/planarity_generator.py",
+      "source_path": "codes/data_generator/planarity_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "cf6dd2c541173892d7431c6f3493fdaf544767c43ec35d2de896a7efd91dcccf",
+      "bytes": 29488
+    },
+    {
+      "path": "data_generator/non_randomized/outer_planarity_generator.py",
+      "source_path": "codes/data_generator/outer_planarity_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "3a28cf35a0b41225f23e38776341e17dec017e72448805a699312d0d5a9c1e05",
+      "bytes": 28775
+    },
+    {
+      "path": "data_generator/non_randomized/hamiltonian_generator.py",
+      "source_path": "codes/data_generator/hamiltonian_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "7f6a8952d553a6b9218c3407db288e222b4f580caab14d279d7bfeb0dd1888ed",
+      "bytes": 34497
+    },
+    {
+      "path": "data_generator/non_randomized/k_colorability_generator.py",
+      "source_path": "codes/data_generator/k_colorability_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "3c5c13df7044fdfc387c6f233e54cbbecd0304bf2e2cb6a073d6bb0d96c3eca9",
+      "bytes": 20314
+    },
+    {
+      "path": "data_generator/non_randomized/completeness_generator.py",
+      "source_path": "codes/data_generator/completeness_generator.py",
+      "source_commit": "58c21250ae9bc48fda6a6a7987079b798c901cde",
+      "sha256": "b24e49f49d92142da4b8ab80ffd4c8e697be5bccd09391675f7166fad3fa7278",
+      "bytes": 11396
+    },
+    {
+      "path": "codes/mllm_model_evaluation_2.5.ipynb",
+      "source_path": "codes/mllm_model_evaluation_2.5.ipynb",
+      "sha256": "84bb49b9cdb34a21fae9a8d87c2589d2925465640fdce64b388dd5a5c818a61c",
+      "bytes": 2368120
+    },
+    {
+      "path": "codes/mllm_model_evaluation_2.5_wr.ipynb",
+      "source_path": "codes/mllm_model_evaluation_2.5_wr.ipynb",
+      "sha256": "536ded830b8336278f6ec2a6fd132fd27614e70c3e50747874d7b0a138d310d3",
+      "bytes": 1749055
+    },
+    {
+      "path": "codes/mllm_model_evaluation_3.ipynb",
+      "source_path": "codes/mllm_model_evaluation_3.ipynb",
+      "sha256": "57017719da935af0883d802fc341417b309e2703769c434a1f3ef8817324204a",
+      "bytes": 2377436
+    },
+    {
+      "path": "codes/mllm_model_evaluation_3_wr.ipynb",
+      "source_path": "codes/mllm_model_evaluation_3_wr.ipynb",
+      "sha256": "2cb68cda3fb4cb520f201fafd77e226782db77bb1cc0d342514648f8d4977951",
+      "bytes": 1641256
+    },
+    {
+      "path": "codes/mllm_model_finetune.ipynb",
+      "source_path": "codes/mllm_model_finetune.ipynb",
+      "sha256": "a6c32e19e4053d8e4100f7c40774b5de793027fd16b709ff32ba5d9d00b07ca1",
+      "bytes": 3938992
+    },
+    {
+      "path": "codes/vision_model_finetune.ipynb",
+      "source_path": "codes/vision_model_finetune.ipynb",
+      "sha256": "a452408ba8dfdf14226c9b9017cf501820bd90caa711de6e41a1c88e95d68a46",
+      "bytes": 4932637
+    },
+    {
+      "path": "results/mllm_eval_results_2.5/mllm_confusion_matrices.png",
+      "source_path": "all_results/mllm_eval_results_2.5/mllm_confusion_matrices.png",
+      "sha256": "a3c28a1b3499c7587397701aef98fd4967cb59ebc6553d93c77c9c2e35f61c85",
+      "bytes": 52430,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5/mllm_exp_comparison.png",
+      "source_path": "all_results/mllm_eval_results_2.5/mllm_exp_comparison.png",
+      "sha256": "8969f1cf326bb37331f84c6fb5712223c293aefab6810f6fab63c4de6c3344ba",
+      "bytes": 91057,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5/mllm_exp1_s_no.csv",
+      "source_path": "all_results/mllm_eval_results_2.5/mllm_exp1_s_no.csv",
+      "sha256": "08d71e92a462463e6c499fc412d24a275ad7d80ffb0e17f9e1b182085b2b0e5a",
+      "bytes": 2225196,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5/mllm_exp2_d_no.csv",
+      "source_path": "all_results/mllm_eval_results_2.5/mllm_exp2_d_no.csv",
+      "sha256": "19a4daff19f13d72cf35ebc80ecdb8fa6bb6ec42d04751a657ddd19546b5661b",
+      "bytes": 2442347,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5/mllm_results.json",
+      "source_path": "all_results/mllm_eval_results_2.5/mllm_results.json",
+      "sha256": "7e02f85aa53307d627b37b35230439e83f3fdcb494f27434dbc06ace63761b0b",
+      "bytes": 2250,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5_wr/mllm_confusion_matrices.png",
+      "source_path": "all_results/mllm_eval_results_2.5_wr/mllm_confusion_matrices.png",
+      "sha256": "db21dc32183f19b226b85e1300eadfccc6aca4a5bb9ecb56841bd76b38d26075",
+      "bytes": 52790,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5_wr/mllm_exp_comparison.png",
+      "source_path": "all_results/mllm_eval_results_2.5_wr/mllm_exp_comparison.png",
+      "sha256": "c9b393ba9e3865212a50682bc25c92775309d684d9cfbc6469ceb09dfb8a0035",
+      "bytes": 89666,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5_wr/mllm_exp1_s_no.csv",
+      "source_path": "all_results/mllm_eval_results_2.5_wr/mllm_exp1_s_no.csv",
+      "sha256": "3d841490938785e5faf9581f397ef9b664eb0f91eb3b0c86a996e516a4cabb8c",
+      "bytes": 2209606,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5_wr/mllm_exp2_d_no.csv",
+      "source_path": "all_results/mllm_eval_results_2.5_wr/mllm_exp2_d_no.csv",
+      "sha256": "ed45772f652f54a478ac6c5609d9c0ea939852b8903920c564ef424491ddd6a6",
+      "bytes": 2416298,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_2.5_wr/mllm_results.json",
+      "source_path": "all_results/mllm_eval_results_2.5_wr/mllm_results.json",
+      "sha256": "c8febf365a5537dce70f883d26c8880527f5efb02d51818c3b5feeb048041d0c",
+      "bytes": 2244,
+      "producer_notebook": "codes/mllm_model_evaluation_2.5_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3/mllm_confusion_matrices.png",
+      "source_path": "all_results/mllm_eval_results_3/mllm_confusion_matrices.png",
+      "sha256": "23e62fef5ae7e07ec7e178a99e938c7b57fdd68d84af1e62427b5c288c9a6fe1",
+      "bytes": 50963,
+      "producer_notebook": "codes/mllm_model_evaluation_3.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3/mllm_exp_comparison.png",
+      "source_path": "all_results/mllm_eval_results_3/mllm_exp_comparison.png",
+      "sha256": "a3539e9c170e1afbb12eae3908433821605ec1a3689876bdca755bdc1a18cbe5",
+      "bytes": 94561,
+      "producer_notebook": "codes/mllm_model_evaluation_3.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3/mllm_exp1_s_no.csv",
+      "source_path": "all_results/mllm_eval_results_3/mllm_exp1_s_no.csv",
+      "sha256": "38e9a6d699c65b32dcc86641707431f52ee292733c884fbf95fccf9427c7711f",
+      "bytes": 2114559,
+      "producer_notebook": "codes/mllm_model_evaluation_3.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3/mllm_exp2_d_no.csv",
+      "source_path": "all_results/mllm_eval_results_3/mllm_exp2_d_no.csv",
+      "sha256": "db833ebdacbde41f3844e1a38b592a3d236bc9c3af394cc8f18bcad2dae7a419",
+      "bytes": 2243372,
+      "producer_notebook": "codes/mllm_model_evaluation_3.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3/mllm_results.json",
+      "source_path": "all_results/mllm_eval_results_3/mllm_results.json",
+      "sha256": "79874addd5894b35f04d3e0e198ece8e7f6f80832939aad91f1247b3618cba92",
+      "bytes": 2258,
+      "producer_notebook": "codes/mllm_model_evaluation_3.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3_wr/mllm_confusion_matrices.png",
+      "source_path": "all_results/mllm_eval_results_3_wr/mllm_confusion_matrices.png",
+      "sha256": "dc5c3da562f39e55e79316230013ecdff08483c052a277180d37a206af92ced6",
+      "bytes": 52788,
+      "producer_notebook": "codes/mllm_model_evaluation_3_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3_wr/mllm_exp_comparison.png",
+      "source_path": "all_results/mllm_eval_results_3_wr/mllm_exp_comparison.png",
+      "sha256": "4ace09b5707406edddd24bafdf29d32234d658f939181704c6a8dea51cd53d27",
+      "bytes": 93372,
+      "producer_notebook": "codes/mllm_model_evaluation_3_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3_wr/mllm_exp1_s_no.csv",
+      "source_path": "all_results/mllm_eval_results_3_wr/mllm_exp1_s_no.csv",
+      "sha256": "86bbea2466d10648f600633ae61f59ddf977cf79ed6555bb865c4b24ff43f993",
+      "bytes": 2410506,
+      "producer_notebook": "codes/mllm_model_evaluation_3_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3_wr/mllm_exp2_d_no.csv",
+      "source_path": "all_results/mllm_eval_results_3_wr/mllm_exp2_d_no.csv",
+      "sha256": "a61dcdfabb020a825e5ebf037b295d8ca1fe93b236919ec881d4f01ef5549b25",
+      "bytes": 2545601,
+      "producer_notebook": "codes/mllm_model_evaluation_3_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_eval_results_3_wr/mllm_results.json",
+      "source_path": "all_results/mllm_eval_results_3_wr/mllm_results.json",
+      "sha256": "23b345fc29123ec60b8efd9679e9e412bd73ad9918c7a185dc64a4d57c5fcab5",
+      "bytes": 2299,
+      "producer_notebook": "codes/mllm_model_evaluation_3_wr.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/mllm_augmentation_grid.png",
+      "source_path": "all_results/mllm_fintetune_results/mllm_augmentation_grid.png",
+      "sha256": "33bd0e177deaeb2550c1ddfa9b99a97ba7265487bd1682c0786d99c253ca57af",
+      "bytes": 2069677,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/mllm_confusion_matrices_finetune.png",
+      "source_path": "all_results/mllm_fintetune_results/mllm_confusion_matrices_finetune.png",
+      "sha256": "e43fb36232a5e627fcadc5b94180dfdbf7a2ae2544c89c553d27f373f0511953",
+      "bytes": 38539,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/mllm_exp_comparison_finetune.png",
+      "source_path": "all_results/mllm_fintetune_results/mllm_exp_comparison_finetune.png",
+      "sha256": "7b9429cc5d423cb7c5f37deff62e390a41a4bbaf3f0fa8c9497acee9519f0001",
+      "bytes": 85812,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/mllm_finetune_exp1_s_no.csv",
+      "source_path": "all_results/mllm_fintetune_results/mllm_finetune_exp1_s_no.csv",
+      "sha256": "fffef38c6006493e0af24bb11ba3382eb7a4360654a53e11fd7588a4db0a4877",
+      "bytes": 1636777,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/mllm_finetune_exp2_d_no.csv",
+      "source_path": "all_results/mllm_fintetune_results/mllm_finetune_exp2_d_no.csv",
+      "sha256": "bc0f90f5222e6f6bb107ba2d4cc1499aa7cf44c9cd3ea712d58f1ec1608bd7e4",
+      "bytes": 1697650,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/mllm_finetune_results.json",
+      "source_path": "all_results/mllm_fintetune_results/mllm_finetune_results.json",
+      "sha256": "69a3f9156a9fae51fc40158c3fe690ef3d9a72bd6f344ac2c456a972a789c930",
+      "bytes": 2293,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/mllm_fintetune_results/training_curves_both.png",
+      "source_path": "all_results/mllm_fintetune_results/training_curves_both.png",
+      "sha256": "8ab7ca71140e42d85773843a2f22615f1b856f41fd63f8cd9d8d30cd45e738d6",
+      "bytes": 101050,
+      "producer_notebook": "codes/mllm_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/confusion_matrices_different.png",
+      "source_path": "all_results/vision_fintetune_results/confusion_matrices_different.png",
+      "sha256": "615f3af71adb3e109b869704568e110c066470bdea4e61edd688846681e33244",
+      "bytes": 514680,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/confusion_matrices_same.png",
+      "source_path": "all_results/vision_fintetune_results/confusion_matrices_same.png",
+      "sha256": "b5ea4b3f8121c81c64068fb5f0bcd048ecf7e8e232d000a764c8dcc39c33c8b6",
+      "bytes": 514558,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/cross_experiment_comparison.png",
+      "source_path": "all_results/vision_fintetune_results/cross_experiment_comparison.png",
+      "sha256": "719626dbd7a0962fdc4996ec300b913383127d9939dca8aaedf0f6b5651f4974",
+      "bytes": 69992,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/final_results.json",
+      "source_path": "all_results/vision_fintetune_results/final_results.json",
+      "sha256": "a031fbf8d677b5f775b7aadf4ee93f679c21ef15bc543679091e288b2c37c349",
+      "bytes": 34649,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/resnet50_different_gradcam.png",
+      "source_path": "all_results/vision_fintetune_results/resnet50_different_gradcam.png",
+      "sha256": "58e8077d6c1ac628ad4cd014f2523d86bb20556d0c0d2833c169639ea5efdec4",
+      "bytes": 1128914,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/resnet50_same_gradcam.png",
+      "source_path": "all_results/vision_fintetune_results/resnet50_same_gradcam.png",
+      "sha256": "2346e9d80183c5d46d0a0552256dead42bfb3a73ff2fbfb253ad9b2efb449542",
+      "bytes": 1125617,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/roc_curves_comparison.png",
+      "source_path": "all_results/vision_fintetune_results/roc_curves_comparison.png",
+      "sha256": "ae56e56587d5f949c5ec68c87f96e6d8ee1a799636918362a3dcd550078f60c6",
+      "bytes": 109047,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/sample_images_with_augmentations.png",
+      "source_path": "all_results/vision_fintetune_results/sample_images_with_augmentations.png",
+      "sha256": "88ab3f5ba4ae74c6983317fb6f3015e1e2c15070e6cea9528f822d2b60910ae9",
+      "bytes": 1225331,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/training_curves_different.png",
+      "source_path": "all_results/vision_fintetune_results/training_curves_different.png",
+      "sha256": "3b62a30e054a7bea40b1303ceadc3be091c924d8bd2eec31c5b792e718fb0cbf",
+      "bytes": 105451,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/training_curves_same.png",
+      "source_path": "all_results/vision_fintetune_results/training_curves_same.png",
+      "sha256": "c08637ecbae6e3d31b8dd121bb2788921b6e7933676b14abbd9c5dd67b4da432",
+      "bytes": 136705,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/resnet50_same_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/resnet50_same_training_curves.png",
+      "sha256": "90516d31eec905ace02c92c534e1cd82b741a58096f4dfe9a8da49f5bb104c56",
+      "bytes": 110861,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/resnet50_different_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/resnet50_different_training_curves.png",
+      "sha256": "714458f83da0676f0ab1393957fcd44452f9aeeb6f9e58b587634b4ffc485a4b",
+      "bytes": 90665,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/resnet50_cbam_same_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/resnet50_cbam_same_training_curves.png",
+      "sha256": "575a9b15f09ee6a62260b5ca5fcf46b397b93eb1c3684582bc09bbb7f325f9a9",
+      "bytes": 110210,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/resnet50_cbam_different_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/resnet50_cbam_different_training_curves.png",
+      "sha256": "868d562da4dbb3f8f027745f4a125f09bb534b9010f76458a26ae04c1cc144b3",
+      "bytes": 95300,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/efficientnetv2_s_same_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/efficientnetv2_s_same_training_curves.png",
+      "sha256": "f011eca7a5a5f71d0afc4d7d7bb1a01aea2f1e1665bf9af28df435b8921a17ac",
+      "bytes": 101287,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/efficientnetv2_s_different_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/efficientnetv2_s_different_training_curves.png",
+      "sha256": "e016629a329c31359967678d1b8e0a653a4e71a985a8f4ff3b80ef3c37645f0d",
+      "bytes": 105096,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/hybrid_same_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/hybrid_same_training_curves.png",
+      "sha256": "6df64e900a6ec169eb527a471aea22d9838408329de1efa82f5a8dc60ee2fe6f",
+      "bytes": 104188,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    },
+    {
+      "path": "results/vision_fintetune_results/hybrid_different_training_curves.png",
+      "source_path": "all_results/vision_fintetune_results/hybrid_different_training_curves.png",
+      "sha256": "968ac834f0a9d6d62906d8e40e5b2d2d9a85083593e94dba39841371f5170760",
+      "bytes": 93680,
+      "producer_notebook": "codes/vision_model_finetune.ipynb"
+    }
+  ],
+  "excluded_result_files": [
+    {
+      "path": "all_results/mllm_eval_results_2.5/__huggingface_repos__.json",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___16_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_1.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_11.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_13.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_15.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_17.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_19.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_21.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_23.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_25.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_27.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_29.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_31.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_33.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_35.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_37.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_39.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_41.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_43.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_45.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_47.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_49.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_5.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_51.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_53.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_55.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_57.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_59.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_61.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_63.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_7.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___22_9.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___28_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5/__results___files/__results___30_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__huggingface_repos__.json",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___16_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_1.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_11.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_13.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_15.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_17.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_19.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_21.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_23.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_25.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_27.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_29.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_31.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_33.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_35.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_37.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_39.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_41.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_43.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_45.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_47.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_49.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_5.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_51.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_53.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_55.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_57.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_59.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_61.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_63.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_7.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___22_9.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___28_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_2.5_wr/__results___files/__results___30_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___16_2.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_1.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_11.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_13.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_15.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_17.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_19.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_21.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_23.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_25.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_27.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_29.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_31.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_33.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_35.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_37.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_39.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_41.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_43.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_45.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_47.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_49.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_5.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_51.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_53.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_55.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_57.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_59.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_61.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_63.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_7.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___22_9.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___28_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3/__results___files/__results___30_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___16_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_1.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_11.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_13.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_15.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_17.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_19.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_21.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_23.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_25.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_27.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_29.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_3.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_31.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_33.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_35.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_37.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_39.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_41.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_43.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_45.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_47.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_49.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_5.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_51.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_53.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_55.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_57.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_59.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_61.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_63.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_7.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___22_9.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___28_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/mllm_eval_results_3_wr/__results___files/__results___30_0.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/vision_fintetune_results/all_models_comparison.png",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/vision_fintetune_results/cv_results.json",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    },
+    {
+      "path": "all_results/vision_fintetune_results/presentation_summary.txt",
+      "reason": "Not an explicit saved artifact of the included notebook, or duplicate Kaggle inline export/cache"
+    }
+  ]
+}

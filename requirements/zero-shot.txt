@@ -1,0 +1,5 @@
+-r common.txt
+# Install the CUDA-compatible torch/torchvision pair separately first.
+transformers>=4.57,<5
+accelerate>=1.0,<2
+qwen-vl-utils>=0.0.14,<0.1

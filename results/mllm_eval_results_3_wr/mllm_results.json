@@ -1,0 +1,106 @@
+{
+  "model": "/kaggle/input/qwen-3-vl/transformers/8b-instruct/1",
+  "exp1_s_no": {
+    "metrics": {
+      "accuracy": 0.555625,
+      "precision": 0.6545138888888888,
+      "recall": 0.235625,
+      "f1": 0.34650735294117646,
+      "n_samples": 3200
+    },
+    "per_property": {
+      "cut_vertex": {
+        "accuracy": 0.5125,
+        "f1": 0.6722689075630253,
+        "n": 400
+      },
+      "connectivity": {
+        "accuracy": 0.7375,
+        "f1": 0.6534653465346535,
+        "n": 400
+      },
+      "bipartite": {
+        "accuracy": 0.515,
+        "f1": 0.05825242718446602,
+        "n": 400
+      },
+      "planarity": {
+        "accuracy": 0.505,
+        "f1": 0.019801980198019802,
+        "n": 400
+      },
+      "outer_planarity": {
+        "accuracy": 0.6475,
+        "f1": 0.4555984555984556,
+        "n": 400
+      },
+      "hamiltonian": {
+        "accuracy": 0.5,
+        "f1": 0.0,
+        "n": 400
+      },
+      "k_colorability": {
+        "accuracy": 0.5275,
+        "f1": 0.10426540284360189,
+        "n": 400
+      },
+      "completeness": {
+        "accuracy": 0.5,
+        "f1": 0.0,
+        "n": 400
+      }
+    }
+  },
+  "exp2_d_no": {
+    "metrics": {
+      "accuracy": 0.6975,
+      "precision": 0.9305177111716622,
+      "recall": 0.426875,
+      "f1": 0.585261353898886,
+      "n_samples": 3200
+    },
+    "per_property": {
+      "cut_vertex": {
+        "accuracy": 0.8825,
+        "f1": 0.8948545861297539,
+        "n": 400
+      },
+      "connectivity": {
+        "accuracy": 0.9875,
+        "f1": 0.9875930521091811,
+        "n": 400
+      },
+      "bipartite": {
+        "accuracy": 0.56,
+        "f1": 0.21428571428571427,
+        "n": 400
+      },
+      "planarity": {
+        "accuracy": 0.54,
+        "f1": 0.14814814814814814,
+        "n": 400
+      },
+      "outer_planarity": {
+        "accuracy": 0.755,
+        "f1": 0.6754966887417219,
+        "n": 400
+      },
+      "hamiltonian": {
+        "accuracy": 0.51,
+        "f1": 0.0392156862745098,
+        "n": 400
+      },
+      "k_colorability": {
+        "accuracy": 0.5275,
+        "f1": 0.10426540284360189,
+        "n": 400
+      },
+      "completeness": {
+        "accuracy": 0.8175,
+        "f1": 0.7767584097859327,
+        "n": 400
+      }
+    }
+  },
+  "visual_proof_gain": 0.14187499999999997
+}

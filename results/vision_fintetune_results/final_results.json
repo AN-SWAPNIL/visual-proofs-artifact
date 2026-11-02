@@ -1,0 +1,1315 @@
+{
+  "config": {
+    "mode": "conditional",
+    "img_size": 400,
+    "batch_size": 16,
+    "epochs": 10,
+    "properties": [
+      "cut_vertex",
+      "connectivity",
+      "bipartite",
+      "planarity",
+      "outer_planarity",
+      "hamiltonian",
+      "k_colorability",
+      "completeness"
+    ],
+    "use_mixup": false,
+    "tta_common_transforms": [
+      "original",
+      "color_invert_full",
+      "color_invert_channel_rot"
+    ],
+    "augmentation": "Standard"
+  },
+  "experiments": {
+    "same": {
+      "layout_type": "same",
+      "description": "yes + s_no (Same Layout)",
+      "train_samples": 11200,
+      "val_samples": 2400,
+      "test_samples": 2400,
+      "models": {
+        "resnet50": {
+          "display_name": "ResNet-50",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  156,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 0.9935691318327974,
+              "precision": 1.0,
+              "recall": 0.9875,
+              "f1": 0.9937106918238994,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  2,
+                  158
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 0.9934426229508196,
+              "precision": 1.0,
+              "recall": 0.9855072463768116,
+              "f1": 0.9927007299270073,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  167,
+                  0
+                ],
+                [
+                  2,
+                  136
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  0,
+                  155
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 0.993103448275862,
+              "precision": 0.9863013698630136,
+              "recall": 1.0,
+              "f1": 0.993103448275862,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  2
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  165
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 0.9965753424657534,
+              "precision": 0.993103448275862,
+              "recall": 1.0,
+              "f1": 0.9965397923875432,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  147,
+                  1
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9970833333333333,
+            "precision": 0.9974979149291076,
+            "recall": 0.9966666666666667,
+            "f1": 0.9970821175489787
+          },
+          "best_val_f1": 0.997504159733777,
+          "best_val_acc": 0.9975
+        },
+        "resnet50_cbam": {
+          "display_name": "ResNet-50+CBAM",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 0.9966666666666667,
+              "precision": 0.993103448275862,
+              "recall": 1.0,
+              "f1": 0.9965397923875432,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  155,
+                  1
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 0.9903536977491961,
+              "precision": 0.9815950920245399,
+              "recall": 1.0,
+              "f1": 0.9907120743034056,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  3
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 0.9901639344262295,
+              "precision": 0.9927007299270073,
+              "recall": 0.9855072463768116,
+              "f1": 0.9890909090909091,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  166,
+                  1
+                ],
+                [
+                  2,
+                  136
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  0,
+                  155
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 0.993103448275862,
+              "precision": 0.9863013698630136,
+              "recall": 1.0,
+              "f1": 0.993103448275862,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  2
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 0.9968051118210862,
+              "precision": 1.0,
+              "recall": 0.9939393939393939,
+              "f1": 0.9969604863221885,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  1,
+                  164
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9958333333333333,
+            "precision": 0.9941860465116279,
+            "recall": 0.9975,
+            "f1": 0.9958402662229617
+          },
+          "best_val_f1": 0.9962577962577963,
+          "best_val_acc": 0.99625
+        },
+        "efficientnetv2_s": {
+          "display_name": "EfficientNetV2-S",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  156,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 0.9901639344262295,
+              "precision": 1.0,
+              "recall": 0.9782608695652174,
+              "f1": 0.989010989010989,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  167,
+                  0
+                ],
+                [
+                  3,
+                  135
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  0,
+                  155
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  146,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 0.9968051118210862,
+              "precision": 1.0,
+              "recall": 0.9939393939393939,
+              "f1": 0.9969604863221885,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  1,
+                  164
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9983333333333333,
+            "precision": 1.0,
+            "recall": 0.9966666666666667,
+            "f1": 0.998330550918197
+          },
+          "best_val_f1": 0.9983347210657785,
+          "best_val_acc": 0.9983333333333333
+        },
+        "hybrid": {
+          "display_name": "Hybrid CNN-Transformer",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 0.9933333333333333,
+              "precision": 0.9863013698630136,
+              "recall": 1.0,
+              "f1": 0.993103448275862,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  154,
+                  2
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 0.9901639344262295,
+              "precision": 0.9856115107913669,
+              "recall": 0.9927536231884058,
+              "f1": 0.9891696750902527,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  165,
+                  2
+                ],
+                [
+                  1,
+                  137
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  0,
+                  155
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  146,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 0.9968051118210862,
+              "precision": 1.0,
+              "recall": 0.9939393939393939,
+              "f1": 0.9969604863221885,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  1,
+                  164
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 0.9965753424657534,
+              "precision": 0.993103448275862,
+              "recall": 1.0,
+              "f1": 0.9965397923875432,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  147,
+                  1
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9970833333333333,
+            "precision": 0.9958437240232751,
+            "recall": 0.9983333333333333,
+            "f1": 0.9970869746150645
+          },
+          "best_val_f1": 0.9991659716430359,
+          "best_val_acc": 0.9991666666666666
+        },
+        "ensemble": {
+          "display_name": "Ensemble [SAME]",
+          "type": "Ensemble",
+          "test_results": {},
+          "overall": {
+            "accuracy": 0.9983333333333333,
+            "precision": 0.9991652754590985,
+            "recall": 0.9975,
+            "f1": 0.9983319432860718,
+            "auc": 0.9999826388888889
+          }
+        }
+      },
+      "best_model": {
+        "name": "efficientnetv2_s",
+        "display_name": "EfficientNetV2-S",
+        "type": "CNN",
+        "f1": 0.998330550918197,
+        "accuracy": 0.9983333333333333
+      }
+    },
+    "different": {
+      "layout_type": "different",
+      "description": "yes + d_no (Different Layout)",
+      "train_samples": 11200,
+      "val_samples": 2400,
+      "test_samples": 2400,
+      "models": {
+        "resnet50": {
+          "display_name": "ResNet-50",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  156,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 0.9967213114754099,
+              "precision": 0.9928057553956835,
+              "recall": 1.0,
+              "f1": 0.9963898916967509,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  166,
+                  1
+                ],
+                [
+                  0,
+                  138
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  0,
+                  155
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  146,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  165
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9995833333333334,
+            "precision": 0.9991673605328892,
+            "recall": 1.0,
+            "f1": 0.9995835068721366
+          },
+          "best_val_f1": 0.9991673605328892,
+          "best_val_acc": 0.9991666666666666
+        },
+        "resnet50_cbam": {
+          "display_name": "ResNet-50+CBAM",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  156,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  167,
+                  0
+                ],
+                [
+                  0,
+                  138
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  0,
+                  155
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  146,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  165
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 0.9965753424657534,
+              "precision": 0.993103448275862,
+              "recall": 1.0,
+              "f1": 0.9965397923875432,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  147,
+                  1
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9995833333333334,
+            "precision": 0.9991673605328892,
+            "recall": 1.0,
+            "f1": 0.9995835068721366
+          },
+          "best_val_f1": 0.9987505206164098,
+          "best_val_acc": 0.99875
+        },
+        "efficientnetv2_s": {
+          "display_name": "EfficientNetV2-S",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  156,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  167,
+                  0
+                ],
+                [
+                  0,
+                  138
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 0.9966555183946488,
+              "precision": 1.0,
+              "recall": 0.9935483870967742,
+              "f1": 0.9967637540453075,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  1,
+                  154
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  146,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  165
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 0.9965753424657534,
+              "precision": 1.0,
+              "recall": 0.9930555555555556,
+              "f1": 0.9965156794425087,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  1,
+                  143
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9991666666666666,
+            "precision": 1.0,
+            "recall": 0.9983333333333333,
+            "f1": 0.9991659716430359
+          },
+          "best_val_f1": 0.9987505206164098,
+          "best_val_acc": 0.99875
+        },
+        "hybrid": {
+          "display_name": "Hybrid CNN-Transformer",
+          "type": "CNN",
+          "test_results": {
+            "cut_vertex": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 300.0,
+              "confusion_matrix": [
+                [
+                  156,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "connectivity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 311.0,
+              "confusion_matrix": [
+                [
+                  151,
+                  0
+                ],
+                [
+                  0,
+                  160
+                ]
+              ]
+            },
+            "bipartite": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  140,
+                  0
+                ],
+                [
+                  0,
+                  150
+                ]
+              ]
+            },
+            "planarity": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 305.0,
+              "confusion_matrix": [
+                [
+                  167,
+                  0
+                ],
+                [
+                  0,
+                  138
+                ]
+              ]
+            },
+            "outer_planarity": {
+              "accuracy": 0.9966555183946488,
+              "precision": 1.0,
+              "recall": 0.9935483870967742,
+              "f1": 0.9967637540453075,
+              "n_samples": 299.0,
+              "confusion_matrix": [
+                [
+                  144,
+                  0
+                ],
+                [
+                  1,
+                  154
+                ]
+              ]
+            },
+            "hamiltonian": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 290.0,
+              "confusion_matrix": [
+                [
+                  146,
+                  0
+                ],
+                [
+                  0,
+                  144
+                ]
+              ]
+            },
+            "k_colorability": {
+              "accuracy": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "n_samples": 313.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  0,
+                  165
+                ]
+              ]
+            },
+            "completeness": {
+              "accuracy": 0.9965753424657534,
+              "precision": 1.0,
+              "recall": 0.9930555555555556,
+              "f1": 0.9965156794425087,
+              "n_samples": 292.0,
+              "confusion_matrix": [
+                [
+                  148,
+                  0
+                ],
+                [
+                  1,
+                  143
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "accuracy": 0.9991666666666666,
+            "precision": 1.0,
+            "recall": 0.9983333333333333,
+            "f1": 0.9991659716430359
+          },
+          "best_val_f1": 0.9987505206164098,
+          "best_val_acc": 0.99875
+        },
+        "ensemble": {
+          "display_name": "Ensemble [DIFFERENT]",
+          "type": "Ensemble",
+          "test_results": {},
+          "overall": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "auc": 1.0
+          }
+        }
+      },
+      "best_model": {
+        "name": "resnet50",
+        "display_name": "ResNet-50",
+        "type": "CNN",
+        "f1": 0.9995835068721366,
+        "accuracy": 0.9995833333333334
+      }
+    }
+  },
+  "cross_experiment": {
+    "visual_proof_gain": {
+      "resnet50_cbam": {
+        "same_acc": 0.9958333333333333,
+        "same_f1": 0.9958402662229617,
+        "diff_acc": 0.9995833333333334,
+        "diff_f1": 0.9995835068721366,
+        "vp_gain": 0.003750000000000031
+      },
+      "hybrid": {
+        "same_acc": 0.9970833333333333,
+        "same_f1": 0.9970869746150645,
+        "diff_acc": 0.9991666666666666,
+        "diff_f1": 0.9991659716430359,
+        "vp_gain": 0.002083333333333326
+      },
+      "resnet50": {
+        "same_acc": 0.9970833333333333,
+        "same_f1": 0.9970821175489787,
+        "diff_acc": 0.9995833333333334,
+        "diff_f1": 0.9995835068721366,
+        "vp_gain": 0.0025000000000000577
+      },
+      "efficientnetv2_s": {
+        "same_acc": 0.9983333333333333,
+        "same_f1": 0.998330550918197,
+        "diff_acc": 0.9991666666666666,
+        "diff_f1": 0.9991659716430359,
+        "vp_gain": 0.0008333333333333526
+      }
+    }
+  }
+}

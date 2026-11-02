@@ -1,0 +1,43 @@
+# Full datasets are distributed separately, not in Git history.
+datasets/archives/
+datasets/extracted/
+generated/
+runs/
+checkpoints/
+mllm_checkpoints/
+mllm_results/
+mllm_eval_results/
+/data_generator/graphtrails_dataset/
+/data_generator/non_randomized/graphtrails_dataset/
+
+# Never publish credentials, model weights, or local environments.
+.env
+.env.*
+!.env.example
+kaggle.json
+*token*.txt
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# The paper production bundle and private conference paperwork stay outside.
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.zip
+*.7z
+
+# Kaggle publishing drafts are maintained outside this repository.
+kaggle_description_*.md
