@@ -1,9 +1,24 @@
 # Learning from Visual Proofs
 
-Research artifacts for **Learning from Visual Proofs: Neural Models for Network
-Property Verification**, accepted at **ICAA 2027**.
+Research artifacts for the following paper, accepted at **ICAA 2027**.
 
-Sonia Khatun, Ahmmad Nur Swapnil, Reyan Ahmed, and Md. Saidur Rahman.
+## Paper
+
+**Title:** Learning from Visual Proofs: Neural Models for Network Property Verification
+
+**Authors:** Sonia Khatun\*, Ahmmad Nur Swapnil\*, Reyan Ahmed, and Md. Saidur Rahman.
+
+\* These authors contributed equally to this work and share first authorship.
+
+**Conference:** International Conference on Applied Algorithms (ICAA 2027).
+
+The paper studies whether graph drawings that present visual certificates help
+neural models recognize structural graph properties. It introduces a
+24,000-image dataset covering eight properties and compares same-style
+negative examples with explicit counter-certificate layouts. The evaluation
+examines zero-shot MLLMs, an MLLM after fine-tuning, and supervised vision
+models to distinguish recognition without task-specific training from
+learnability with supervision.
 
 This repository contains the accepted study only. The later multi-model
 revision experiments, new prompt ablations, and incomplete thesis extensions
@@ -157,8 +172,8 @@ randomized generation; see the reproducibility notes.
 
 ## Paper, Citation, and Licenses
 
-The paper title and authors are recorded in `CITATION.cff`. DOI, volume, page
-numbers, and the final repository URL should be added when available; none are
+The paper title and authors are recorded in `CITATION.cff`. DOI, volume, and
+page numbers should be added when available; none are
 invented here. The LaTeX production bundle, publisher PDF, reviews, registration
 receipt, and signed publishing agreement are **not** part of this code release.
 A paper link is sufficient; deposit an author manuscript only after checking
