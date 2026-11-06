@@ -3,7 +3,7 @@ message: "Please cite the accompanying ICAA 2027 paper when using these artifact
 title: "Learning from Visual Proofs: Neural Models for Network Property Verification"
 type: software
 authors:
-  - given-names: Sonia
+  - given-names: Most. Sonia
     family-names: Khatun
   - given-names: Ahmmad Nur
     family-names: Swapnil

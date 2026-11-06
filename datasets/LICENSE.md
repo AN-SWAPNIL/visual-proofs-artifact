@@ -6,7 +6,7 @@ the `r` and `wr` dataset releases are offered under the
 The [full legal code](https://creativecommons.org/licenses/by/4.0/legalcode.txt)
 is incorporated by reference.
 
-Copyright (c) 2026 Sonia Khatun, Ahmmad Nur Swapnil, Reyan Ahmed, and
+Copyright (c) 2026 Most. Sonia Khatun, Ahmmad Nur Swapnil, Reyan Ahmed, and
 Md. Saidur Rahman.
 
 Credit the dataset authors and the paper, link to the license, and indicate

@@ -6,7 +6,7 @@ Research artifacts for the following paper, accepted at **ICAA 2027**.
 
 **Title:** Learning from Visual Proofs: Neural Models for Network Property Verification
 
-**Authors:** Sonia Khatun\*, Ahmmad Nur Swapnil\*, Reyan Ahmed, and Md. Saidur Rahman.
+**Authors:** Most. Sonia Khatun\*, Ahmmad Nur Swapnil\*, Reyan Ahmed, and Md. Saidur Rahman.
 
 \* These authors contributed equally to this work and share first authorship.
 
